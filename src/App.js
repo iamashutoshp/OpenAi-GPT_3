@@ -14,8 +14,9 @@ export default function App() {
   return (
     <div className="App">
       <div className="gradient__bg">
-        <Navbar />
-        <Header />
+        <Navbar /> 
+        <Header style={{marginLeft: '20rem',
+      marginRight: '2rem'}}/>
       </div>
       <Brand />
       <WhatGTP3 />
