@@ -1,7 +1,7 @@
 import React from "react";
 import {
   Blog,
-  Feature,
+  Features,
   Footer,
   Header,
   Possibility,
@@ -18,9 +18,9 @@ export default function App() {
         <Header style={{marginLeft: '20rem',
       marginRight: '2rem'}}/>
       </div>
-      <Brand />
       <WhatGTP3 />
-      <Feature />
+      <Brand />
+      <Features />
       <Possibility />
       <CTA />
       <Blog />

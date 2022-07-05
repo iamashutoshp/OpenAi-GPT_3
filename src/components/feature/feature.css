@@ -1,9 +1,9 @@
 .gpt3__features-container__feature {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: flex-end;
     flex-direction: row;
     margin: 1rem;
 }
@@ -30,6 +30,9 @@
 }
 
 @media screen and (max-width: 500px) {
+    .gpt3__features-container__feature-title {
+        flex-direction: column;
+    }
     .gpt3__features-container__feature-title h1 {
         font-size: 14px;
         line-height: 12px;
